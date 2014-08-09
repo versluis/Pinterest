@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2724E6E1996CF7B007DAA12 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2724E6D1996CF7B007DAA12 /* iPhone.storyboard */; };
 		D29FCC141996C19A00EC0AC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29FCC131996C19A00EC0AC0 /* Foundation.framework */; };
 		D29FCC161996C19A00EC0AC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29FCC151996C19A00EC0AC0 /* CoreGraphics.framework */; };
 		D29FCC181996C19A00EC0AC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29FCC171996C19A00EC0AC0 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2724E6D1996CF7B007DAA12 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 		D29FCC101996C19A00EC0AC0 /* Pinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D29FCC131996C19A00EC0AC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D29FCC151996C19A00EC0AC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +117,7 @@
 				D29FCC221996C19A00EC0AC0 /* AppDelegate.h */,
 				D29FCC231996C19A00EC0AC0 /* AppDelegate.m */,
 				D29FCC251996C19A00EC0AC0 /* Main.storyboard */,
+				D2724E6D1996CF7B007DAA12 /* iPhone.storyboard */,
 				D29FCC281996C19A00EC0AC0 /* ViewController.h */,
 				D29FCC291996C19A00EC0AC0 /* ViewController.m */,
 				D29FCC2B1996C19A00EC0AC0 /* Images.xcassets */,
@@ -231,6 +234,7 @@
 				D29FCC2C1996C19A00EC0AC0 /* Images.xcassets in Resources */,
 				D29FCC1E1996C19A00EC0AC0 /* InfoPlist.strings in Resources */,
 				D29FCC271996C19A00EC0AC0 /* Main.storyboard in Resources */,
+				D2724E6E1996CF7B007DAA12 /* iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +386,7 @@
 				GCC_PREFIX_HEADER = "Pinterest/Pinterest-Prefix.pch";
 				INFOPLIST_FILE = "Pinterest/Pinterest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,6 +400,7 @@
 				GCC_PREFIX_HEADER = "Pinterest/Pinterest-Prefix.pch";
 				INFOPLIST_FILE = "Pinterest/Pinterest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -458,6 +464,7 @@
 				D29FCC441996C19A00EC0AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D29FCC451996C19A00EC0AC0 /* Build configuration list for PBXNativeTarget "PinterestTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +473,7 @@
 				D29FCC471996C19A00EC0AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
